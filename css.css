@@ -96,7 +96,7 @@ h2 {
   /* font-family: 'CalligraphyFLF', sans-serif; */
   /* font-family: 'Roboto', sans-serif; */
   font-family: 'Elektra', sans-serif;
-  margin: 15px auto;
+  margin: 15px 30px;
   width: fit-content;
   /* display: inline; */
 }
@@ -118,7 +118,14 @@ img#main-logo {
 }
 
 /* img */
-.aff-img {
+a.aff-img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+img.aff-img {
   display: block;
   width: 50px;
   height: 50px;
@@ -154,10 +161,13 @@ li {
   flex-direction: row;
   align-items: center;
   padding: 2px 10px;
-  margin: 5px 0;
+  margin: 7px 10px;
   align-content: space-between;
 }
 
+li * {
+  overflow: hidden;
+}
 
 
 
